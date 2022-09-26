@@ -43,12 +43,12 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.width', None)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
-image = Image.open('/Users/nuri/PycharmProjects/pythonProject/vbo_project_disease_prediction_ml/company_logo.jpeg')
+image = Image.open('vbo_project_disease_prediction_ml/Images/company_logo.jpeg')
 st.image(image,width=330)
 
 
-df_lung = pd.read_csv("/Users/nuri/PycharmProjects/pythonProject/vbo_project_disease_prediction_ml/Datasets/survey lung cancer.csv")
-df_heart = pd.read_csv("/Users/nuri/PycharmProjects/pythonProject/vbo_project_disease_prediction_ml/Datasets/heart.csv")
+df_lung = pd.read_csv("vbo_project_disease_prediction_ml/Datasets/survey lung cancer.csv")
+df_heart = pd.read_csv("vbo_project_disease_prediction_ml/Datasets/heart.csv")
 
 
 # LUNG CANCER

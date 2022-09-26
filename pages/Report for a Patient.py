@@ -38,7 +38,7 @@ pd.set_option('display.width', None)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
 # DATA IMPORT
-df = pd.read_csv("/Users/nuri/PycharmProjects/pythonProject/vbo_project_disease_prediction_ml/Datasets/survey lung cancer.csv")
+df = pd.read_csv("vbo_project_disease_prediction_ml/Datasets/survey lung cancer.csv")
 
 def outlier_thresholds(dataframe, col_name, q1=0.25, q3=0.75):
 	quartile1 = dataframe[col_name].quantile(q1)
@@ -167,7 +167,7 @@ df["AGE"] = rs.fit_transform(df[["AGE"]])
 ###############################################################################################
 # DATA - HEART ATTACK
 ###############################################################################################
-dff = pd.read_csv("/Users/nuri/PycharmProjects/pythonProject/vbo_project_disease_prediction_ml/Datasets/heart.csv")
+dff = pd.read_csv("vbo_project_disease_prediction_ml/Datasets/heart.csv")
 
 import seaborn as sns
 import numpy as np
