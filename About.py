@@ -1,7 +1,7 @@
 import streamlit as st
 import json
-# from PIL import Image
-# image = Image.open('vbo_project_disease_prediction_ml/Images/company_logo.jpeg')
+from PIL import Image
+image = Image.open('vbo_project_disease_prediction_ml/Images/company_logo.jpeg')
 st.image(image,width=300)
 
 
